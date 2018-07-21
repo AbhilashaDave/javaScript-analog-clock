@@ -1,0 +1,41 @@
+.circle{
+	position: relative;
+	top: 15px;
+	height: 200px;
+	width: 200px;
+	background: linear-gradient(lightblue, blue, darkblue);
+	border-radius: 50%;
+	border: 3px solid black;
+}
+.hourdLine{
+	width: 5px;
+	height: 45px;
+	background-color: red;
+	transform-origin: 50% 80%;
+	position: absolute;
+	top: 11%;
+	left: 7.3%;
+	margin-left: -2px;
+     
+	 
+}
+.minuteLine{
+	width: 3px;
+	height: 60px;
+	background-color: yellow;
+	transform-origin: 50% 80%;
+	position: absolute;
+	top: 9%;
+	left: 7.3%;
+	margin-left: -1px;
+	 
+}
+.secondLine{
+	width: 1px;
+	height: 70px;
+	background-color: black;
+	transform-origin: 50% 80%;
+	position: absolute;
+	top: 7.6%;
+	left: 7.3%;
+}
